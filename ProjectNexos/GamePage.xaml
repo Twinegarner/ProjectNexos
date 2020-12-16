@@ -6,12 +6,24 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Height="500"
-    Width="800"
+   
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <SplitView IsPaneOpen="True"
+           DisplayMode="Inline"
+           OpenPaneLength="500"
+           Background="Black">
+        <SplitView.Pane >
+            <Grid Background="BlanchedAlmond">
+                <Button x:Name="LeftButton" Click="LeftButton_Click" Margin="157,340,0,0" VerticalAlignment="Top" Height="70" Width="200" FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" FontSize="36"/>
 
-    <Grid>
-        <TextBlock Text="TextBlock testing" TextWrapping="Wrap"/>
+            </Grid>
 
-    </Grid>
+        </SplitView.Pane>
+        <Grid Background="Tan" Margin="42,42,40,40">
+            <TextBlock x:Name="TextViewMain" Text="TextBlock testing" TextWrapping="Wrap" Margin="59,55,64,36" FocusVisualSecondaryBrush="#99F17B7B" Foreground="#FF262323" SelectionHighlightColor="#FF69BAF9" FontSize="24" FontFamily="Bahnschrift"/>
+
+        </Grid>
+    </SplitView>
+
+
 </Page>

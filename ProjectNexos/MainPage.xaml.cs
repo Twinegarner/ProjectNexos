@@ -37,7 +37,7 @@ namespace ProjectNexos
 
         private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            ApplicationView.GetForCurrentView().TryResizeView(new Size(800, 800));
+            //ApplicationView.GetForCurrentView().TryResizeView(new Size(800, 800));
         }
     }
 }

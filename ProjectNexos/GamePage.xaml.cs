@@ -26,5 +26,10 @@ namespace ProjectNexos
         {
             this.InitializeComponent();
         }
+
+        private void LeftButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextViewMain.Text = "you moved left";
+        }
     }
 }
