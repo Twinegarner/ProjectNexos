@@ -14,7 +14,11 @@
            Background="Black">
         <SplitView.Pane >
             <Grid Background="BlanchedAlmond">
-                <Button x:Name="LeftButton" Click="LeftButton_Click" Margin="157,340,0,0" VerticalAlignment="Top" Height="70" Width="200" FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" FontSize="36"/>
+                <Button x:Name="LeftButton" Click="LeftButton_Click" Margin="160,340,0,0" VerticalAlignment="Top" Height="60" Width="60" FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" FontSize="36"/>
+                <Button x:Name="RightButton" Click="RightButton_Click" Height="60" Width="60" Margin="320,340,0,0" VerticalAlignment="Top" FontFamily="Segoe MDL2 Assets" Content="&#xE72A;" FontSize="36"/>
+                <Button x:Name="UpButton" Click="UpButton_Click" Height="60" Width="60" Margin="240,300,0,0" VerticalAlignment="Top"  FontFamily="Segoe MDL2 Assets" Content="&#xE74A;" FontSize="36"/>
+                <Button x:Name="DownButton" Click="DownButton_Click" Height="60" Width="60" Margin="240,380,0,0" VerticalAlignment="Top"  FontFamily="Segoe MDL2 Assets" Content="&#xE74B;" FontSize="36"/>
+
 
             </Grid>
 

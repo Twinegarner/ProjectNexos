@@ -22,14 +22,32 @@ namespace ProjectNexos
     /// </summary>
     public sealed partial class GamePage : Page
     {
+        GameFileReader gameTest = new GameFileReader();
+
         public GamePage()
         {
             this.InitializeComponent();
+            
         }
 
         private void LeftButton_Click(object sender, RoutedEventArgs e)
         {
-            TextViewMain.Text = "you moved left";
+            TextViewMain.Text = gameTest.RoomLoader();
+        }
+
+        private void RightButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void UpButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DownButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
